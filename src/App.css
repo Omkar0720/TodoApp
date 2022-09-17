@@ -1,0 +1,38 @@
+#title {
+  text-align: center;
+}
+body {
+  background: #27a4bd;
+}
+.App {
+  background: #12d305;
+  height: 600px;
+  width: 500px;
+  margin: 50px auto;
+  border-style: solid;
+  border-radius: 1rem;
+}
+#to-do input {
+  background-color: white;
+  border: 0px;
+  width: 15rem;
+  height: 0.5rem;
+  margin: 3rem;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#to-do input::placeholder{
+  color:black;
+}
+#to-do button{
+  width: 4rem;
+  height: 2rem;
+  padding: 0 10px;
+  border-radius: 3px;
+  border: 0;
+  background-color: #27a4bd;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
